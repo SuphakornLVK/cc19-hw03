@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+}
+.main-wrapper {
+    background-color: aquamarine;
+    height: 100vh;
+    background-image:
+        linear-gradient( to bottom, #000000bb, #00000022, #000000bb),
+        url('./background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sarabun", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.container {
+    width: 80%;
+    /* padding: 8px; */
+    min-height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    flex-direction: column;
+    /* flex-flow: column wrap-reverse; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.container-percent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.item-blank{
+    /* outline: 1px dashed red; */
+    padding: 4px;
+    width: 320px;
+}
+.item {
+    /* outline: 1px dashed red; */
+    padding: 4px;
+}
+.item01 {
+    /* outline: 1px dashed red; */
+    padding: 4px;
+    align-content: center;
+    font-family: "Sarabun", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.item02 {
+    /* outline: 1px dashed red; */
+    padding: 4px;
+    align-content: center;
+    font-family: "Sarabun", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.item03 {
+    /* outline: 1px dashed red; */
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.item04 {
+    /* outline: 1px dashed red; */
+    align-content: center;
+    align-items: center;
+    padding: 0;
+}
+.item05 {
+    /* outline: 1px dashed red; */
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    width: 550px;
+}
+.item06 {
+    /* outline: 1px dashed red; */
+    align-content: center;
+    align-items: center;
+}
+.item10 {
+    /* outline: 1px dashed red; */
+    align-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.item-top{
+    height: 90px;
+}
+.item-bot{
+    height: 45px;
+}
+.item-hr{
+    width: 750px;
+    max-height: 20px;
+}
+.item-hr{
+    width: 800px;
+    max-height: 20px;
+}
+hr {
+    color: grey;
+}
+.item-footer{
+    font-size: 15pt;
+    font-family: "Sarabun", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: grey;
+}
+button {
+    background-color: #a2e0f8;
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 25pt;
+    width: 225px;
+    font-family: "Sarabun", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.percent{
+    font-size: 15pt;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    margin: 10px auto;
+    /* border-radius: 8px 16px 20px 30%; */
+    border-radius: 50%;
+    /* ขอบมน เริ่มจากซ้ายบนตามเข็ม */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    overflow: hidden;
+    box-shadow: 16px 22px 62px -18px rgba(0,0,0,0.75);
+    /* ขวา ลง จาง กระจาย ซ้ายติดลบ ขวาบวก*/
+}
+.avatar img {
+    width: 110%;
+}
+.bar-border{
+    border:1px solid #ccc;
+    width: 400px;
+    background-color: white;
+    height: 10px;
+    box-shadow: 3px 3px 15px #000;
+}
+.bar-guage{
+    background-color:#a2e0f8;
+}
+.fixed-tr {
+    position: fixed;
+    top: 5px;
+    right: 0px;
+    width: 15%;
+    font-size: 20px;
+}
